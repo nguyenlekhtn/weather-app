@@ -5,7 +5,8 @@ My weather app based on the requirement of PROJECT: WEATHER APP on TheOdinProjec
 This project uses OpenWeather API to fetch weather datas and displays it on my app.
 
 Feature of this weather app:
-*Able to search for a specific city
-*Toggle displaying the data in Fahrenheit or Celsius.
+
+- Able to search for a specific city
+- Toggle displaying the data in Fahrenheit or Celsius.
 
 Live demo: https://nguyenlekhtn.github.io/weather-app
