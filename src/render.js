@@ -42,7 +42,7 @@ let weatherInfo = {};
 
 const changeForm = async (e) => {
   const form = e.currentTarget;
-  const errorBox = document.querySelector(".error");
+  const errorBox = document.querySelector(".errorNoti");
   try {
     e.preventDefault();
     const location = form.elements["location"].value;
