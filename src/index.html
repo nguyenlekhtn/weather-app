@@ -1,12 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  </head>
+  <body>
+  <div id="content">
+    <div class="mainScreen"  >
+      <h1 class="mainScreen__title">Weather App</h1>
+
+      <form action="" class="form" autocomplete="off">
+        <input type="text" class="form__field" id="location" placeholder="Enter city name" autofocus/>
+        <button type="submit" class="form__submit">
+          <span class="material-icons">
+            search
+          </span>
+        </button>
+      </form>
+
+    </div>
+    <div class="infoContainer">
+      <button class="infoContainer__back button">
+        <span class="material-icons">
+          undo
+          </span>
+      </button>
+      <div class="main">
+        <div class="main__info left">
+          <span class="main__info__main" data-info="temp">7°</span>
+          <span class="main__info__sub" data-info="location">Vienna, AT</span>
+        </div>
+        <div class="main__info right">
+          <span class="main__info__main" data-info="main">Clear</span>
+          <span class=main__info__sub" data-info="description">clear sky
+            </span>
+        </div>
+      </div>
+      <div class="sub">
+        <div class="sub__box">
+          <span class="name">Feels like</span>
+          <span class="value" data-info="feel_like">3.6°</span>
+        </div>
+        <div class="sub__box">
+          <span class="name">Humidity</span>
+          <span class="value" data-info="humidity">66%</span>
+        </div>
+        <div class="sub__box">
+          <span class="name">Pressure</span>
+          <span class="value" data-info="pressure">1019mb</span>
+        </div>
+        <div class="sub__box">
+          <span class="name">Min temp</span>
+          <span class="value" data-info="temp_min">42.1°</span>
+        </div>
+        <div class="sub__box">
+          <span class="name">Max temp</span>
+          <span class="value" data-info="temp_max">47.1°</span>
+        </div>
+      </div>
+    </div>
+    <small class="error" style="display: none">No location is found!</small>
+  </div>
+
+    
+  </body>
 </html>

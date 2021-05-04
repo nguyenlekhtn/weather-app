@@ -1,6 +1,6 @@
-import test from "./weather";
+import { init } from "./render";
 
 import "./styles.scss";
 console.log("hello world!");
 
-test();
+init();
