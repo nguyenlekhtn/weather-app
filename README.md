@@ -7,3 +7,5 @@ This project uses OpenWeather API to fetch weather datas and displays it on my a
 Feature of this weather app:
 *Able to search for a specific city
 *Toggle displaying the data in Fahrenheit or Celsius.
+
+Live demo: https://nguyenlekhtn.github.io/weather-app
